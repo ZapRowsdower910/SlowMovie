@@ -158,6 +158,10 @@ sudo systemctl enable slowmovie
 
 And if something goes wrong, the first step is to check the logs for an error message. The command above will show the last few lines of the log file but you can view the entire file located at `/home/pi/SlowMovie/slowmovie.log` with any text editor.
 
+## Optimizing Video Files
+
+Videos played with SlowMovie can be optimized to reduce file size and remove unnecessary data like audio and subtitle tracks. Handbrake can help re-encode video files, check out the [handbrake docs](./Documentation/handbrake.md) for specifics on how to do this.
+
 ## Maintainers
 
 * [@qubist](https://github.com/qubist)
